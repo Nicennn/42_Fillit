@@ -17,10 +17,12 @@ Only valid files will be executed:
 Run: `
 ./fillit tests/test_file
 `  
-If you prefer, run `make re` at the root of the file to recompile an executable and run the previous line.  If the the file was valid, your output will look similar to this:
+If you prefer, run `make re` at the root of the file to recompile an executable and run the previous line.  If the file was valid, your output will look similar to this:
+
 ![Correct_file_output_example](imgs/correct_file.png)
 
 If the file was invalid, an error message will appear:
+
 ![Error_message](imgs/error_message.png)
 ## Algorithm
 ### Checker program
