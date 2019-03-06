@@ -11,19 +11,21 @@ We must follow the [norm](https://github.com/Nicennn/42_Fillit/blob/master/imgs/
 * free
 
 Only valid files will be executed:
+
 ![Valid_examples](imgs/valid_example.png)
 
-## How to execute
+## Usage
 Run: `
 ./fillit tests/test_file
 `  
 If you prefer, run `make re` at the root of the file to recompile an executable and run the previous line.  If the file was valid, your output will look similar to this:
 
-![Correct_file_output_example](imgs/correct_file.png)
+<img src="./imgs/correct_file.png" height=800 />
 
 If the file was invalid, an error message will appear:
 
-![Error_message](imgs/error_message.png)
+<img src="./imgs/error_message.png" width=600 />
+
 ## Algorithm
 ### Checker program
 As it's name suggests, this program checks if the file passed in argument is valid or not by checking at [x +/- 1] and [y +/- 1] coordonates if a '#' block is present or not and if the number of total blocks is equal to 4. This part was mostly handled by my partner [h4cke2man](https://github.com/h4cke2man).
